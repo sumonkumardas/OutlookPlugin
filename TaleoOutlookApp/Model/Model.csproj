@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C86DE596-928E-4395-ABA7-0C3F6E24A5F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthenticateData\Language.cs" />
+    <Compile Include="AuthenticateData\LanguageResourceData.cs" />
+    <Compile Include="AuthenticateData\LogInData.cs" />
+    <Compile Include="AuthenticateData\SessionData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestFeedback\RequestFeedbackModel.cs" />
+    <Compile Include="Response\AttachmentIntoCandidateResponse.cs" />
+    <Compile Include="Response\BinaryResumeRequestResponse.cs" />
+    <Compile Include="Response\CommentResponse.cs" />
+    <Compile Include="Response\CandidateAttachmentUploadResponse.cs" />
+    <Compile Include="Response\CandidateResponse.cs" />
+    <Compile Include="Response\BulkResumeUploadResponse.cs" />
+    <Compile Include="Response\UserResponse.cs" />
+    <Compile Include="Response\CreateContactResponse.cs" />
+    <Compile Include="Response\CreateCandidateResponse.cs" />
+    <Compile Include="Response\CreateEmailLogResponse.cs" />
+    <Compile Include="Response\DeleteCandidateResponse.cs" />
+    <Compile Include="Response\EmailSentLogResponse.cs" />
+    <Compile Include="Response\EnableServiceResponse.cs" />
+    <Compile Include="Response\GetCandidateByIdResponse.cs" />
+    <Compile Include="Response\HTTPResponse.cs" />
+    <Compile Include="Response\IHTTPResponse.cs" />
+    <Compile Include="Response\JSessionIDResponse.cs" />
+    <Compile Include="Response\LoginResponse.cs" />
+    <Compile Include="Response\LoginTokenResponse.cs" />
+    <Compile Include="Response\LogoutResponse.cs" />
+    <Compile Include="Response\NewServiceListResponse.cs" />
+    <Compile Include="Response\ParseResumeCandidateUrlResponse.cs" />
+    <Compile Include="Response\ParseResumeIntoCandidateResponse.cs" />
+    <Compile Include="Response\ParseResumeResponse.cs" />
+    <Compile Include="Response\ServiceListResponse.cs" />
+    <Compile Include="Response\ServiceURLResponse.cs" />
+    <Compile Include="Response\SettingsFileResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Util\Util.csproj">
+      <Project>{dbd6600c-1eda-4c01-b60f-cd1208651182}</Project>
+      <Name>Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

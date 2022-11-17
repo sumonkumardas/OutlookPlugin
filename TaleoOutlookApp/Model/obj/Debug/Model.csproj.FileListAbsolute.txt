@@ -1,0 +1,7 @@
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Debug\Model.dll
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Debug\Model.pdb
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Debug\Util.dll
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Debug\Util.pdb
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Debug\Model.dll
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Debug\Model.pdb

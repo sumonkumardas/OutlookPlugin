@@ -1,0 +1,14 @@
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Release\Model.dll
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Release\Model.pdb
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Release\Util.dll
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Release\Util.pdb
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Release\Model.dll
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Release\Model.pdb
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Release\Model.dll
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Release\Model.pdb
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Release\Util.dll
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\bin\Release\Util.pdb
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Release\Model.dll
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Model\obj\Release\Model.pdb

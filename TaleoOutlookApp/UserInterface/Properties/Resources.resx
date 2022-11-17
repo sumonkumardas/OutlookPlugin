@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icn_add_comments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inc_add_comments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_add_to_taleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleo.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_add_to_taleo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icn_add_to_taleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_check_for_update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AutoUpdate.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_check_for_update_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inc_check_for_update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dashboard.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_dashboard_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icn_dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_file_feedback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileFeedback.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_file_feedback_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icn_file_feedback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_request_feedback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RequestFeedback.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_request_feedback_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icn_request_feedback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_taleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icn_taleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_taleo_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icn_taleo_login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_log_email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_log_email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taleo_login_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taleo_login_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="employeeFeedbackBanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\employeeFeedbackBanner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="send" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\send.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taleoAboutUsLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taleoAboutUsLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taleo_Warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taleo-Warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="getting_service" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\getting-service.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lock_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNew2of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoStep2AttachmentHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNew2of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoStep2Header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNew3of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoStep3HeaderNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNew4of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoStep4HeaderNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNew3of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoNew3of5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNew4of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoNew4of5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNew5of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoNew5of5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer2of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer2of5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer3of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer3of5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer4of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer4of5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer5of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer5of5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer2of6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer2of6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer3of6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer3of6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer4of6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer4of6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer5of6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer5of6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoRefer6of6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoRefer6of6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoExisting2of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoExisting2of4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoExisting3of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoExisting3of4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_to_taleo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_to_taleo_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_for_update_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check_for_update_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_address_book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddressBook.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_address_book_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_address_book_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preferenceAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\preferenceAccount.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preferenceFeedback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\preferenceFeedback.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrefereneAdvance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrefereneAdvance.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taleo_Msg_Header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Taleo_Msg_Header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_email_msg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log_email_msg.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_log_email_highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_log_email-highlight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoExisting4of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoExisting4of4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrefereneLanguage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrefereneLanguage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addCommentHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addCommentHeader.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icn_addCommentLog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icn_addCommentLog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddCommentRB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCommentRB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddressBookRB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddressBookRB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogEmailRB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogEmailRB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreferenceRB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PreferenceRB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddCommentRBic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCommentRBic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreferenceRBic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PreferenceRBic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutRBic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AboutRBic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddCommentAnimation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCommentAnimation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoAnimation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoAnimation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogEmailAnimation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogEmailAnimation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateCheckAnimation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpdateCheckAnimation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleo1of3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleo1of3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleo1of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleo1of4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleo1of5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleo1of5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoExistingContact2of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoExistingContact2of4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoExistingContact3of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoExistingContact3of4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoExistingContact4of4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoExistingContact4of4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNewContact2of3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoNewContact2of3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddToTaleoNewContact3of3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddToTaleoNewContact3o3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutRB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AboutRB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_to_taleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-to-taleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_to_taleo_ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-to-taleo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="auth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\auth.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard_ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-bubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_bubble_ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-bubble.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_feedback_step1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-feedback-step1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_feedback_step2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-feedback-step2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_feedback_step3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-feedback-step3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_authentication" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-authentication.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="request_bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\request-bubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="request_bubble_ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\request-bubble.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="server_doc_part1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\server-doc-part1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="server_doc_part1_ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\server-doc-part1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taleo_ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taleo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates_ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_feedbackdummy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-feedbackdummy2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addtotaleobanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addtotaleobanner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="requestfeedbackbanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\requestfeedbackbanner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addtotaleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addtotaleo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginBanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginBanner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addCommentsBanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addCommentsBanner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="about1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\about1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_to_taleo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-to-taleo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_bubble1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-bubble1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preference1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\preference1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="request_bubble1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\request-bubble1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="request_msg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\request-msg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taleo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taleo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taleo11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taleo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_comment_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_comment_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_to_taleo_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-to-taleo_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_feedback_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-feedback_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_round" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_round.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="request_feedback_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\request-feedback_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taleo_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taleo_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

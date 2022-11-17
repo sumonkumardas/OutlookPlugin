@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--
+    This section defines project-level properties.
+
+    AssemblyName
+      Name of the output assembly.
+    Configuration
+      Specifies a default value for debug.
+    OutputType
+      Must be "Library" for VSTO.
+    Platform
+      Specifies what CPU the output of this project can run on.
+    NoStandardLibraries
+      Set to "false" for VSTO.
+    RootNamespace
+      In C#, this specifies the namespace given to new files. In VB, all objects are
+      wrapped in this namespace at runtime.
+  -->
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1479DF3-3256-491C-B449-1F385664EA35}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <RootNamespace>TaleoOutlookAddin</RootNamespace>
+    <AssemblyName>Taleo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DefineConstants>VSTO40</DefineConstants>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
+    <VSTO_TrustAssembliesLocation>true</VSTO_TrustAssembliesLocation>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>C:\Users\Alam\Desktop\OutlookAddins\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>en</TargetCulture>
+    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>TaleoOutlookAddin</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>TaleoOutlookAddin</FriendlyName>
+    <OfficeApplicationDescription />
+    <LoadBehavior>3</LoadBehavior>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <!--
+      OfficeApplication
+        Add-in host application
+    -->
+    <OfficeApplication>Outlook</OfficeApplication>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Debug" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Debug\Taleo.XML</DocumentationFile>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Release" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <!--
+    This section specifies references for the project.
+  -->
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Outlook, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Outlook.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <!--
+    This section defines the user source files that are part of the project.
+     
+    A "Compile" element specifies a source file to compile.
+    An "EmbeddedResource" element specifies an .resx file for embedded resources.
+    A "None" element specifies a file that is not to be passed to the compiler (for instance, 
+    a text file or XML file).
+    The "AppDesigner" element specifies the directory where the application properties files
+    can be found.
+  -->
+  <ItemGroup>
+    <Compile Include="EmailWindowRibbon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EmailWindowRibbon.Designer.cs">
+      <DependentUpon>EmailWindowRibbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddComments\AddCommentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddComments\AddCommentsForm.Designer.cs">
+      <DependentUpon>AddCommentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BulkResumeUpload\BulkResumeUploadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BulkResumeUpload\BulkResumeUploadForm.Designer.cs">
+      <DependentUpon>BulkResumeUploadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\AddCommentLogMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\AddCommentLogMessageForm.Designer.cs">
+      <DependentUpon>AddCommentLogMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\AddToTaleoMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\AddToTaleoMessageForm.Designer.cs">
+      <DependentUpon>AddToTaleoMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TaleoFormHelper\TaleoButtonAction.cs" />
+    <Compile Include="Forms\TaleoFormHelper\TaleoFormHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\AddressBook\AddressBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddressBook\AddressBookForm.Designer.cs">
+      <DependentUpon>AddressBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddToTaleo\AddToTaleo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddToTaleo\AddToTaleo.Designer.cs">
+      <DependentUpon>AddToTaleo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddToTaleo\AddToTaleoWithAttachment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddToTaleo\AddToTaleoWithAttachment.designer.cs">
+      <DependentUpon>AddToTaleoWithAttachment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CheckForUpdate\CheckForUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CheckForUpdate\CheckForUpdate.Designer.cs">
+      <DependentUpon>CheckForUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\AuthenticationMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\AuthenticationMessageForm.Designer.cs">
+      <DependentUpon>AuthenticationMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\GettingServiceMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\GettingServiceMessageForm.Designer.cs">
+      <DependentUpon>GettingServiceMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\LogEmailMsgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\LogEmailMsgForm.Designer.cs">
+      <DependentUpon>LogEmailMsgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\TaleoMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\TaleoMessageBox.Designer.cs">
+      <DependentUpon>TaleoMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\UpdateCheckingMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\UpdateCheckingMessageForm.Designer.cs">
+      <DependentUpon>UpdateCheckingMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TaleoFormHelper\AddToTaleoStarter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="EmailWindowRibbon.resx">
+      <DependentUpon>EmailWindowRibbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddComments\AddCommentsForm.resx">
+      <DependentUpon>AddCommentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddressBook\AddressBookForm.resx">
+      <DependentUpon>AddressBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddToTaleo\AddToTaleo.resx">
+      <DependentUpon>AddToTaleo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddToTaleo\AddToTaleoWithAttachment.resx">
+      <DependentUpon>AddToTaleoWithAttachment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BulkResumeUpload\BulkResumeUploadForm.resx">
+      <DependentUpon>BulkResumeUploadForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CheckForUpdate\CheckForUpdate.resx">
+      <DependentUpon>CheckForUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomeMessage\AddCommentLogMessageForm.resx">
+      <DependentUpon>AddCommentLogMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomeMessage\AddToTaleoMessageForm.resx">
+      <DependentUpon>AddToTaleoMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomeMessage\AuthenticationMessageForm.resx">
+      <DependentUpon>AuthenticationMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomeMessage\GettingServiceMessageForm.resx">
+      <DependentUpon>GettingServiceMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomeMessage\LogEmailMsgForm.resx">
+      <DependentUpon>LogEmailMsgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomeMessage\TaleoMessageBox.resx">
+      <DependentUpon>TaleoMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomeMessage\UpdateCheckingMessageForm.resx">
+      <DependentUpon>UpdateCheckingMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutOracleTaleo\AboutOracleTaleoForm.resx">
+      <DependentUpon>AboutOracleTaleoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomeMessage\LogInFailedMsgForm.resx">
+      <DependentUpon>LogInFailedMsgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FileFeedBack\FileFeedBackForm.resx">
+      <DependentUpon>FileFeedBackForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Preferences\PreferencesForm.resx">
+      <DependentUpon>PreferencesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RequestFeedback\RequestFeedBack.resx">
+      <DependentUpon>RequestFeedBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Language\TalaeoLanguage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TalaeoLanguage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Language\Taleo.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Language\Taleo.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ribbon.resx">
+      <DependentUpon>Ribbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaleoWebControl\Common\CtrlTaleoDashboard.resx">
+      <DependentUpon>CtrlTaleoDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaleoWebControl\Common\CtrlTaleoMyView.resx">
+      <DependentUpon>CtrlTaleoMyView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaleoWebControl\Common\CtrlTaleoTBETVOnline.resx">
+      <DependentUpon>CtrlTaleoTBETVOnline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaleoWebControl\Common\CtrlTaleoResourceCenter.resx">
+      <DependentUpon>CtrlTaleoResourceCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskPaneControl.resx">
+      <DependentUpon>TaskPaneControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="TaleoOutlookAddin_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Forms\AboutOracleTaleo\AboutOracleTaleoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutOracleTaleo\AboutOracleTaleoForm.Designer.cs">
+      <DependentUpon>AboutOracleTaleoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\LogInFailedMsgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomeMessage\LogInFailedMsgForm.Designer.cs">
+      <DependentUpon>LogInFailedMsgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FileFeedBack\FileFeedBackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FileFeedBack\FileFeedBackForm.Designer.cs">
+      <DependentUpon>FileFeedBackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Preferences\PreferencesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Preferences\PreferencesForm.Designer.cs">
+      <DependentUpon>PreferencesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RequestFeedback\RequestFeedBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RequestFeedback\RequestFeedBack.Designer.cs">
+      <DependentUpon>RequestFeedBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Language\TalaeoLanguage.Designer.cs">
+      <DependentUpon>TalaeoLanguage.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Ribbon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ribbon.Designer.cs">
+      <DependentUpon>Ribbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaleoWebControl\Common\CtrlTaleoDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaleoWebControl\Common\CtrlTaleoDashboard.Designer.cs">
+      <DependentUpon>CtrlTaleoDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaleoWebControl\Common\CtrlTaleoMyView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaleoWebControl\Common\CtrlTaleoMyView.Designer.cs">
+      <DependentUpon>CtrlTaleoMyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaleoWebControl\Common\CtrlTaleoTBETVOnline.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaleoWebControl\Common\CtrlTaleoTBETVOnline.Designer.cs">
+      <DependentUpon>CtrlTaleoTBETVOnline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaleoWebControl\Common\CtrlTaleoResourceCenter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaleoWebControl\Common\CtrlTaleoResourceCenter.Designer.cs">
+      <DependentUpon>CtrlTaleoResourceCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskPaneControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskPaneControl.Designer.cs">
+      <DependentUpon>TaskPaneControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaleoAddIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="TaleoAddIn.Designer.xml">
+      <DependentUpon>TaleoAddIn.cs</DependentUpon>
+    </None>
+    <Compile Include="TaleoAddIn.Designer.cs">
+      <DependentUpon>TaleoAddIn.Designer.xml</DependentUpon>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddCommentSuccessHTML.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="colt.htm" />
+    <Content Include="Forms\AddComments\AddCommentSuccessHTML.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="HTMLPage1.html" />
+    <Content Include="Properties\btn_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\taleo_new.png" />
+    <None Include="Resources\updates_new.png" />
+    <None Include="Resources\add_comment_new.png" />
+    <None Include="Resources\file-feedback_new.png" />
+    <None Include="Resources\add-to-taleo_new.png" />
+    <None Include="Resources\request-feedback_new.png" />
+    <None Include="Resources\dashboard_new.png" />
+    <None Include="Resources\info_round.png" />
+    <None Include="Resources\about1.png" />
+    <None Include="Resources\updates1.png" />
+    <None Include="Resources\taleo1.png" />
+    <None Include="Resources\taleo1.jpg" />
+    <None Include="Resources\request-msg1.png" />
+    <None Include="Resources\request-bubble1.png" />
+    <None Include="Resources\preference1.png" />
+    <None Include="Resources\file-bubble1.png" />
+    <None Include="Resources\dashboard1.png" />
+    <None Include="Resources\add-to-taleo1.png" />
+    <None Include="Resources\addCommentsBanner.jpg" />
+    <None Include="Resources\loginBanner.jpg" />
+    <None Include="Resources\addtotaleo.jpg" />
+    <None Include="Resources\addtotaleobanner.jpg" />
+    <None Include="Resources\requestfeedbackbanner.jpg" />
+    <None Include="Resources\dashboard.ico" />
+    <None Include="Resources\updates.ico" />
+    <None Include="Resources\taleo.ico" />
+    <None Include="Resources\server-doc-part1.ico" />
+    <None Include="Resources\request-bubble.ico" />
+    <None Include="Resources\file-bubble.ico" />
+    <None Include="Resources\add-to-taleo.ico" />
+    <None Include="Resources\server-doc-part1.png" />
+    <None Include="Resources\file-feedback-step1.jpg" />
+    <None Include="Resources\file-feedback-step3.jpg" />
+    <None Include="Resources\file-feedback-step2.jpg" />
+    <None Include="Resources\filefeedbackSteps.png" />
+    <None Include="Resources\file-feedbackdummy2.jpg" />
+    <None Include="Resources\file-feedbackSteps.jpg" />
+    <None Include="Resources\login-authentication.gif" />
+    <None Include="Resources\auth.gif" />
+    <None Include="Resources\updates.png" />
+    <None Include="Resources\add-to-taleo.png" />
+    <None Include="Resources\file-bubble.png" />
+    <None Include="Resources\request-bubble.png" />
+    <None Include="Resources\dashboard.png" />
+    <None Include="Resources\taleo.png" />
+    <None Include="Resources\WelcomeBanner.jpg" />
+    <None Include="Resources\welcome.png" />
+    <None Include="Resources\Oracle-Taleo.png" />
+    <None Include="Resources\AddToTaleoExistingContact4of4.png" />
+    <None Include="Resources\AddToTaleoExistingContact3of4.png" />
+    <None Include="Resources\AddToTaleoExistingContact2of4.png" />
+    <None Include="Resources\AddToTaleoNewContact3o3.png" />
+    <None Include="Resources\AddToTaleoNewContact2of3.png" />
+    <None Include="Resources\AddToTaleo1of3.png" />
+    <None Include="Resources\AddToTaleo1of5.png" />
+    <None Include="Resources\AddToTaleo1of4.png" />
+    <None Include="Resources\UpdateCheckAnimation.gif" />
+    <None Include="Resources\LoginAuthenticationAnimation.gif" />
+    <None Include="Resources\LogEmailAnimation.gif" />
+    <None Include="Resources\AddToTaleoAnimation.gif" />
+    <None Include="Resources\AddCommentAnimation.gif" />
+    <None Include="Resources\AboutRBic.ico" />
+    <None Include="Resources\UpdateRBic.ico" />
+    <None Include="Resources\TaleoRBic.ico" />
+    <None Include="Resources\RequestFeedBackRBic.ico" />
+    <None Include="Resources\RequestFeedBackRB.ico" />
+    <None Include="Resources\PreferenceRBic.ico" />
+    <None Include="Resources\LoginRBic.ico" />
+    <None Include="Resources\FileFeedBackRBic.ico" />
+    <None Include="Resources\DashboardRBic.ico" />
+    <None Include="Resources\AddtoTaleoRBic.ico" />
+    <None Include="Resources\AddCommentRBic.ico" />
+    <None Include="Resources\UpdateRB.png" />
+    <None Include="Resources\PreferenceRB.png" />
+    <None Include="Resources\LogEmailRB.png" />
+    <None Include="Resources\AddressBookRB.png" />
+    <None Include="Resources\AddCommentRB.png" />
+    <None Include="Resources\AboutRB.png" />
+    <None Include="Resources\TaleoRB.png" />
+    <None Include="Resources\RequestFeedBackRB.png" />
+    <None Include="Resources\LoginRB.png" />
+    <None Include="Resources\FileFeedBackRB.png" />
+    <None Include="Resources\DashboardRB.png" />
+    <None Include="Resources\AddtoTaleoRB.png" />
+    <None Include="Resources\icn_addCommentLog.png" />
+    <None Include="Resources\addCommentHeader.PNG" />
+    <None Include="Resources\PrefereneLanguage.png" />
+    <None Include="Resources\filefeedbackbannerstep2.jpg" />
+    <None Include="Resources\filefeedbackbannerstep3.jpg" />
+    <None Include="Resources\lock-icon.png" />
+    <None Include="Resources\getting-service.png" />
+    <None Include="Resources\lock_icon.png" />
+    <None Include="Resources\AddToTaleoHeader4.png" />
+    <None Include="Resources\AddToTaleoHeader5.png" />
+    <None Include="Resources\AddToTaleoStep2AttachmentHeader.png" />
+    <None Include="Resources\AddToTaleoStep2Header.png" />
+    <None Include="Resources\AddToTaleoStep3HeaderNew.png" />
+    <None Include="Resources\AddToTaleoStep4HeaderNew.png" />
+    <None Include="Resources\AddToTaleoNew3of5.png" />
+    <None Include="Resources\AddToTaleoNew4of5.png" />
+    <None Include="Resources\AddToTaleoNew5of5.png" />
+    <None Include="Resources\AddToTaleoRefer2of5.png" />
+    <None Include="Resources\AddToTaleoRefer3of5.png" />
+    <None Include="Resources\AddToTaleoRefer4of5.png" />
+    <None Include="Resources\AddToTaleoRefer5of5.png" />
+    <None Include="Resources\AddToTaleoRefer2of6.png" />
+    <None Include="Resources\AddToTaleoRefer3of6.png" />
+    <None Include="Resources\AddToTaleoRefer4of6.png" />
+    <None Include="Resources\AddToTaleoRefer5of6.png" />
+    <None Include="Resources\AddToTaleoRefer6of6.png" />
+    <None Include="Resources\AddToTaleoExisting2of4.png" />
+    <None Include="Resources\AddToTaleoExisting3of4.png" />
+    <None Include="Resources\AddressBook.bmp" />
+    <None Include="Resources\AddressBook.ico" />
+    <None Include="Resources\ic_address_book_3.png" />
+    <None Include="Resources\add_to_taleo_2.png" />
+    <None Include="Resources\check_for_update_2.png" />
+    <None Include="Resources\login-banner.jpg" />
+    <None Include="Resources\preferenceAccount.PNG" />
+    <None Include="Resources\preferenceFeedback.PNG" />
+    <None Include="Resources\PrefereneAdvance.PNG" />
+    <None Include="Resources\update-icon.png" />
+    <None Include="Resources\log_email_msg.PNG" />
+    <None Include="Resources\ic_log_email-highlight.png" />
+    <None Include="Resources\AddToTaleoExisting4of4.png" />
+    <None Include="Resources\QuestionMark.png" />
+    <None Include="Resources\question.PNG" />
+    <None Include="Resources\taleo-Warning.png" />
+    <None Include="Resources\taleoAboutUsLogo.jpg" />
+    <None Include="Resources\filefeedbackBanner.jpg" />
+    <None Include="Resources\toButton.jpg" />
+    <None Include="Resources\send.jpg" />
+    <None Include="Resources\employeeFeedbackBanner.jpg" />
+    <None Include="Resources\taleo_login_icon.png" />
+    <None Include="Resources\icn_address_book.png" />
+    <None Include="Resources\ic_log_email.png" />
+    <None Include="Resources\AutoUpdate.bmp" />
+    <None Include="Resources\FileFeedback.bmp" />
+    <None Include="Resources\RequestFeedback.bmp" />
+    <None Include="Resources\Dashboard.bmp" />
+    <None Include="Resources\AddToTaleo.bmp" />
+    <None Include="Resources\inc_check_for_update.png" />
+    <None Include="Resources\inc_add_comments.png" />
+    <None Include="Resources\icn_taleo_login.png" />
+    <None Include="Resources\icn_taleo.png" />
+    <None Include="Resources\icn_request_feedback.png" />
+    <None Include="Resources\icn_file_feedback.png" />
+    <None Include="Resources\icn_dashboard.png" />
+    <None Include="Resources\icn_add_to_taleo.png" />
+    <None Include="Resources\btn_03.png" />
+    <None Include="Resources\btn_02.png" />
+    <None Include="Resources\btn_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{b2260a26-e770-4e93-a133-283a42d0c86f}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{c86de596-928e-4395-aba7-0c3f6e24a5f5}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{01ec86db-48f7-4985-b5e3-a5a6bcc2ed26}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Util\Util.csproj">
+      <Project>{dbd6600c-1eda-4c01-b60f-cd1208651182}</Project>
+      <Name>Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TaleoOutlookAddin_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>82C3CD9DBC46E423E322313964E2ACD88F43612E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <!-- Include the build rules for a C# project. -->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- Include additional build rules for an Office application add-in. -->
+  <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />
+  <!-- This section defines VSTO properties that describe the host-changeable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="Outlook" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Outlook" Language="cs" TemplatesPath="VSTOTemplates" DebugInfoExeName="#Software\Microsoft\Office\15.0\Outlook\InstallRoot\Path#outlook.exe" AddItemTemplatesGuid="{A58A78EB-1C92-4DDD-80CF-E8BD872ABFC4}" />
+        <Host Name="Outlook" GeneratedCodeNamespace="TaleoOutlookAddin" PublishedHash="69C324AB27932AA2FBF2B7EA72250886FF164DE6" IconIndex="0">
+          <HostItem Name="ThisAddIn" Code="TaleoAddIn.cs" CanonicalName="AddIn" PublishedHash="93F9C767702E2292998B3FBDB0B27B2E279F7AB4" CanActivate="false" IconIndex="1" Blueprint="TaleoAddIn.Designer.xml" GeneratedCode="TaleoAddIn.Designer.cs" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,1549 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Taleo</name>
+    </assembly>
+    <members>
+        <member name="F:TaleoOutlookAddin.EmailWindowRibbon.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.EmailWindowRibbon.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.EmailWindowRibbon.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TaleoOutlookAddin.ThisRibbonCollection">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.ThisRibbonCollection.#ctor(Microsoft.Office.Tools.Ribbon.RibbonFactory)">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddComments.AddCommentsForm.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.AddComments.AddCommentsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddComments.AddCommentsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddComments.AddCommentsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.BulkResumeUpload.BulkResumeUploadForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.BulkResumeUpload.BulkResumeUploadForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.BulkResumeUpload.BulkResumeUploadForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.CustomeMessage.AddCommentLogMessageForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.AddCommentLogMessageForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.AddCommentLogMessageForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.CustomeMessage.AddToTaleoMessageForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.AddToTaleoMessageForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.AddToTaleoMessageForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetTaleoLoginButtoonAction">
+            <summary>
+            This method is executed when Login ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetTaleoButtoonAction">
+            <summary>
+            This method is executed when Taleo ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetDashBoardButtoonAction">
+            <summary>
+            This method is executed when DashBoard ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetRequestFeedBackButtoonAction">
+            <summary>
+            This method is executed when RequestFeedBack ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetFileFeedbackButtoonAction">
+            <summary>
+            This method is executed when FileFeedback ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetAddToTaleoButtoonAction">
+            <summary>
+            This method is executed when AddToTaleo ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetAddCommentsButtonAction">
+            <summary>
+            This method is executed when AddComments ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetPreferencesButtonAction">
+            <summary>
+            This method is executed when Preferences ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetCheckForUpdatesButtonAction">
+            <summary>
+            This method is executed when CheckForUpdates ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetAboutButtonAction">
+            <summary>
+            This method is executed when About ribbon/menu/toolbar is clicked
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetAccessPermisionResponse(System.String)">
+            <summary>
+            Get access permision response
+            </summary>
+            <param name="accessName">permission name to check</param>
+            <returns>return true or false</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetFileFeedbackSelectedEmailBody(Microsoft.Office.Interop.Outlook.MailItem)">
+            <summary>
+            Get selected email body for file feedback  
+            </summary>
+            <param name="item"> mail item</param>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.GetFileFeedbackSelectedItem(Microsoft.Office.Interop.Outlook.Selection)">
+            <summary>
+            Get selection items for file feedback
+            </summary>
+            <param name="selections">items</param>
+            <returns></returns>
+        </member>
+        <member name="P:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.RegistryKeyURL">
+            <summary>
+            This is used to get/set the registry key of Microsoft/Office/Version/Outlook/Today
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.CustomUrlValue">
+            <summary>
+            This is used to get/set the registry value of Microsoft/Office/Version/Outlook/Today/customURL; customURL is sometimes used to show outlook today folder.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.UserdefinedurlValue">
+            <summary>
+            This is used to get/set the registry value of Microsoft/Office/Version/Outlook/Today/customURL; customURL is sometimes used to show outlook today folder.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.UrlValue">
+            <summary>
+            This is used to get/set the registry value of Microsoft/Office/Version/Outlook/Today/customURL; customURL is sometimes used to show outlook today folder.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoButtonAction.StampValue">
+            <summary>
+            This is used to get/set the registry value of Microsoft/Office/Version/Outlook/Today/customURL; customURL is sometimes used to show outlook today folder.
+            </summary>
+        </member>
+        <member name="T:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper">
+            <summary>
+            Helping Methods for Taleo Forms
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.AuthenticateLogin">
+            <summary>
+            Authenticates login. If not logged in, shows login window and then check login if it fails, returns false.
+            </summary>
+            <returns>Is successfully logged in</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.Base64Encode(System.String)">
+            <summary>
+            Encodes from string to Base64String
+            </summary>
+            <param name="plainText">Plain string</param>
+            <returns>Base64String</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.Base64Decode(System.String)">
+            <summary>
+            Decodes from Base64String to string
+            </summary>
+            <param name="base64EncodedData">Base64String</param>
+            <returns>Plain string</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.EncodeFileTextToBase64(System.String)">
+            <summary>
+            Encode all text of a file to Base64String
+            </summary>
+            <param name="filePath">name of file</param>
+            <returns>Base64String</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetCookieString">
+            <summary>
+            Get cookie string
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetResourceValueByName(System.String)">
+            <summary>
+            This method get resource value by name
+            </summary>
+            <param name="resourceName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetUrlToSelectCandidateSoap(System.String)">
+            <summary>
+            Gets the url for Selecting Candidate With Soap
+            </summary>
+            <param name="loginToken">Log In Token</param>
+            <returns>SOAP Candidate Selection url</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetUrlToSelectCandidateRest(System.String)">
+            <summary>
+            Gets the url for Selecting Candidate With Rest
+            </summary>
+            <param name="loginToken">Log In Token</param>
+            <returns>REST Candidate Selection url</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetUrlToCreateCandidate(Model.Response.ParseResumeIntoCandidateResponse)">
+            <summary>
+            Gets the url to create candidate with soap
+            </summary>
+            <param name="loginToken">Log In Token</param>
+            <param name="result">Soap Response Result</param>
+            <returns>Create Candidate url</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetUrlForLogConfirmation(System.String)">
+            <summary>
+            Gets Log Entry Confirmation Url
+            </summary>
+            <param name="loginToken">Log In Token</param>
+            <returns>Confirmation Url</returns>
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.AddOrUpdateResourceFile(System.String,System.String,System.String)">
+            <summary>
+            This function can update existing value of given key or add new key and value
+            </summary>
+            <param name="resourceKey">key</param>
+            <param name="resourceValue"> value</param>
+            <param name="resourcePath"> file path</param>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetApplicationSettingsValue(System.String)">
+            <summary>
+            Get application settings value of request
+            </summary>
+            <param name="key">key of application settings</param>
+            <returns>value of specified key</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetRegistryKeyURL(System.String)">
+            <summary>
+            Get Register URL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetCandidateListURL">
+            <summary>
+            Get candidate list URL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetContactListURL">
+            <summary>
+            Get candidate list URL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.getImage(System.Drawing.Icon)">
+            <summary>
+            get .cio to stdole.IPictureDisp type image for toolbar and menubar icon
+            </summary>
+            <param name="menuIconIcon"></param>
+            <returns>bitmap image</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetMimeType(System.String)">
+            <summary>
+            Gets the MIME type using the extension of the file
+            </summary>
+            <param name="ext">extension</param>
+            <returns>MIME type</returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.IsAutoLoogedIn">
+            <summary>
+             check login info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetAuthTokenForRest">
+            <summary>
+            Gets the Authentication token for REST
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.GetSignature">
+            <summary>
+            Gets the User signeture from Signeture.ini file
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Forms.TaleoFormHelper.TaleoFormHelper.RootPath">
+            <summary>
+            To get application root path
+            </summary>
+        </member>
+        <member name="M:ConvertImage.#ctor">
+            <summary>
+            this class is used for convert ico type to bit type image to load toobar and menu bar icon outlook 2007
+            </summary>
+        </member>
+        <member name="M:ConvertImage.Convert(System.Drawing.Image)">
+            <summary>
+            convert to stdole.IPictureDisp type to load toobar and menu bar icon outlook 2007
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.AddressBook.AddressBookForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddressBook.AddressBookForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddressBook.AddressBookForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleo">
+            <summary>
+            It is the form for email without attachment to add to Taleo
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleo.#ctor(Microsoft.Office.Interop.Outlook.MailItem)">
+            <summary>
+            This constructor is called for email without attachment
+            </summary>
+            <param name="mailItem">Selected Email</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleo.#ctor(Microsoft.Office.Interop.Outlook.MailItem,System.Boolean,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Int32,System.String)">
+            <summary>
+            This Constructor is only called from AddToTaleoWithAttachment
+            </summary>
+            <param name="mailItem">Selected Email</param>
+            <param name="fromAttachedForm">Is called from AddToTaleoWithAttachment</param>
+            <param name="attachedFiles">Attachment Files Path</param>
+            <param name="selectedIndex">Selected Index in AddToTaleoWithAttachment Form</param>
+            <param name="refer">Refer name that selected in AddToTaleoWithAttachment form</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleo.GetUserAgent">
+            <summary>
+            Methods Associated with AddToTaleo Form GUI and its private members
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleoWithAttachment">
+            <summary>
+            It is the form for email with attachment to add to Taleo
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleoWithAttachment.#ctor(Microsoft.Office.Interop.Outlook.MailItem,System.Collections.Generic.List{System.String},System.Int32,System.String,System.Boolean)">
+            <summary>
+            This constructor is called for email without attachment
+            </summary>
+            <param name="mailItem">Selected Email</param>
+            <param name="attachedFiles">Attached Files</param>
+            <param name="selectedIndex">Selected Index</param>
+            <param name="refer">Refer name of candidate</param>
+            <param name="fromTaleoForm">Is called from AddToTaleoAttachment</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleoWithAttachment.GetUserAgent">
+            <summary>
+            Methods Associated with AddToTaleoAttacment Form GUI and its private members
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleoWithAttachment.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleoWithAttachment.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AddToTaleo.AddToTaleoWithAttachment.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CheckForUpdate.CheckForUpdate.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.CustomeMessage.AuthenticationMessageForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.AuthenticationMessageForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.AuthenticationMessageForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.CustomeMessage.GettingServiceMessageForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.GettingServiceMessageForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.GettingServiceMessageForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.CustomeMessage.LogEmailMsgForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.LogEmailMsgForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.LogEmailMsgForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.CustomeMessage.TaleoMessageForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.TaleoMessageForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.TaleoMessageForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.CustomeMessage.UpdateCheckingMessageForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.UpdateCheckingMessageForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.UpdateCheckingMessageForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Login.LoginForm.#ctor">
+            <summary>
+            Initialize Login Form
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Login.LoginForm.saveLoginData(Model.AuthenticateData.LogInData,Service.AddIn.AddInServices)">
+            <summary>
+            Save login data to settings file and set necessary data to addinservice and taleoadon 
+            </summary>
+            <param name="logInDataObj"></param>
+            <param name="addInService"></param>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.Login.LoginForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Login.LoginForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Login.LoginForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TaleoOutlookAddin.Forms.TaleoFormHelper.AddToTaleoStarter">
+            <summary>
+            This Class contains methods for starting AddToTaleo feature
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.TaleoFormHelper.AddToTaleoStarter.ShowFormCheckingSelection(Microsoft.Office.Interop.Outlook.Selection)">
+            <summary>
+            This method sends Bulk REST for multiple selected emails or zip file.
+            And it opens AddToTaleo form for single selected email
+            </summary>
+            <param name="selections">Selected Emails By Users</param>
+        </member>
+        <member name="T:TaleoOutlookAddin.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.about1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AboutRB">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AboutRBic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.add_comment_new">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.add_to_taleo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.add_to_taleo_2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.add_to_taleo_ic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.add_to_taleo_new">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.add_to_taleo1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddCommentAnimation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.addCommentHeader">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddCommentRB">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddCommentRBic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.addCommentsBanner">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddressBookRB">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.addtotaleo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleo1of3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleo1of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleo1of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoAnimation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.addtotaleobanner">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoExisting2of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoExisting3of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoExisting4of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoExistingContact2of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoExistingContact3of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoExistingContact4of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNew2of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNew2of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNew3of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNew3of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNew4of4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNew4of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNew5of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNewContact2of3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoNewContact3of3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer2of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer2of6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer3of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer3of6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer4of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer4of6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer5of5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer5of6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.AddToTaleoRefer6of6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.alert">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.auth">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.check_for_update_2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.dashboard">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.dashboard_ic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.dashboard_new">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.dashboard1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.employeeFeedbackBanner">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.error2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.file_bubble">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.file_bubble_ic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.file_bubble1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.file_feedback_new">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.file_feedback_step1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.file_feedback_step2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.file_feedback_step3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.file_feedbackdummy2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.getting_service">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.ic_address_book_3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.ic_log_email">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.ic_log_email_highlight">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_add_comments">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_add_to_taleo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_add_to_taleo_2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_addCommentLog">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_address_book">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_check_for_update">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_check_for_update_2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_dashboard">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_dashboard_2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_file_feedback">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_file_feedback_2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_request_feedback">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_request_feedback_2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_taleo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.icn_taleo_login">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.info">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.info_round">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.lock_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.log_email_msg">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.LogEmailAnimation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.LogEmailRB">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.login_authentication">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.loginBanner">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.preference1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.preferenceAccount">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.preferenceFeedback">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.PreferenceRB">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.PreferenceRBic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.PrefereneAdvance">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.PrefereneLanguage">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.request_bubble">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.request_bubble_ic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.request_bubble1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.request_feedback_new">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.request_msg1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.requestfeedbackbanner">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.send">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.server_doc_part1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.server_doc_part1_ic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.taleo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.taleo_ic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.taleo_login_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.Taleo_Msg_Header">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.taleo_new">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.taleo_Warning">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.taleo1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.taleo11">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.taleoAboutUsLogo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.toButton">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.UpdateCheckAnimation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.updates">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.updates_ic">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.updates_new">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Properties.Resources.updates1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.AboutOracleTaleoForm.AboutOracleTaleoForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AboutOracleTaleoForm.AboutOracleTaleoForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.AboutOracleTaleoForm.AboutOracleTaleoForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.CustomeMessage.LogInFailedMsgForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.LogInFailedMsgForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.CustomeMessage.LogInFailedMsgForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.FileFeedBack.TaleoFileFeedBackForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.FileFeedBack.TaleoFileFeedBackForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.FileFeedBack.TaleoFileFeedBackForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Preferences.PreferencesForm.#ctor">
+            <summary>
+            Preference form constructor
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Preferences.PreferencesForm.GetResourceValueByName1(System.String)">
+            <summary>
+            this is dummy method for load language, in future we remove it
+            </summary>
+            <param name="resourceName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Preferences.PreferencesForm.GetResourceValueByName2(System.String)">
+            <summary>
+            this is dummy method for load language, in future we remove it
+            </summary>
+            <param name="resourceName"></param>
+            <returns></returns>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.Preferences.PreferencesForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Preferences.PreferencesForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.Preferences.PreferencesForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Forms.RequestFeedback.RequestFeedBack.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.RequestFeedback.RequestFeedBack.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Forms.RequestFeedback.RequestFeedBack.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TaleoOutlookAddin.Resources.Language.TalaeoLanguage">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Resources.Language.TalaeoLanguage.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TaleoOutlookAddin.Resources.Language.TalaeoLanguage.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Ribbon.ribbon">
+            <summary>
+            To initialize taleo ribbon
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.Ribbon.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.Ribbon.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.Ribbon.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoDashboard.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoDashboard.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="F:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoDashboard.navigationURL">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+            
+        </member>
+        <member name="F:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoMyView.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoMyView.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoMyView.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+            
+        </member>
+        <member name="F:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoTBETVOnline.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoTBETVOnline.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="F:TaleoOutlookAddin.TaleoWebControl.Common.CtrlTaleoTBETVOnline.navigationURL">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+            
+        </member>
+        <member name="F:TaleoOutlookAddin.TaskPaneControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaskPaneControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaskPaneControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+            
+        </member>
+        <member name="F:TaleoOutlookAddin.TaskPaneControl.webBrowser">
+            *
+        </member>
+        <member name="T:TaleoOutlookAddin.TaleoAddIn">
+            
+        </member>
+        <member name="F:TaleoOutlookAddin.TaleoAddIn.filefeedBackExplorer">
+            <summary>
+            TO enable disable filefeedback button
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.SelectionChange">
+            <summary>
+             Active explorer selection change event handler function
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.LoadTaleoStarterInfo">
+            <summary>
+            To initaialize taleo addin
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.postLogInActivity(System.Boolean)">
+            <summary>
+            To store login token and also used auto logged out if service url null.
+            </summary>
+            <param name="autoLogOut"></param>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.init">
+            <summary>
+            Basic initialization of taleo outlook addin
+            </summary>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.getLastLogInData">
+            <summary>
+            To get last logged in data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.checkLogIn(Model.AuthenticateData.LogInData)">
+            <summary>
+            To check is user logged in or not
+            </summary>
+            <param name="lastLogInData">Nee last last logged in info</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.showLink(System.Int32)">
+            <summary>
+            To show taleo, dashboard or my view page.
+            </summary>
+            <param name="controlIndex">Decide which url need to execute</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.InboxLogEmailAction(Microsoft.Office.Interop.Outlook.Selection)">
+            <summary>
+            This method perform Log email action for inbox mail
+            </summary>
+            <param name="selections">Outlook email selection object that contains selected email property</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.SentItemLogEmailAction(Microsoft.Office.Interop.Outlook.Selection)">
+            <summary>
+            This method perform Log email action for sent item mail
+            </summary>
+            <param name="selections">Outlook email selection object that contains selected email property</param>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.CheckForInternetConnection">
+            <summary>
+            Check internet connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.#ctor(Microsoft.Office.Tools.Outlook.Factory,System.IServiceProvider)">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.Initialize">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.FinishInitialization">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.InitializeDataBindings">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.InitializeCachedData">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.InitializeData">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.BindToData">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.StartCaching(System.String)">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.StopCaching(System.String)">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.IsCached(System.String)">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.BeginInitialization">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.EndInitialization">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.InitializeControls">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.InitializeComponents">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.NeedsFill(System.String)">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.TaleoAddIn.OnShutdown">
+            
+        </member>
+        <member name="T:TaleoOutlookAddin.Globals">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.Globals.#ctor">
+            
+        </member>
+        <member name="T:TaleoOutlookAddin.ThisFormRegionCollection">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.ThisFormRegionCollection.#ctor(System.Collections.Generic.IList{Microsoft.Office.Tools.Outlook.IFormRegion})">
+            
+        </member>
+        <member name="T:TaleoOutlookAddin.WindowFormRegionCollection">
+            
+        </member>
+        <member name="M:TaleoOutlookAddin.WindowFormRegionCollection.#ctor(System.Collections.Generic.IList{Microsoft.Office.Tools.Outlook.IFormRegion})">
+            
+        </member>
+    </members>
+</doc>

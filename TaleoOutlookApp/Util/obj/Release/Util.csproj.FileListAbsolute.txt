@@ -1,0 +1,10 @@
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\bin\Release\Util.dll
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\bin\Release\Util.pdb
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\obj\Release\Util.dll
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\obj\Release\Util.pdb
+C:\Users\ASNazrul\workspaceTaleo\main\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\obj\Release\Util.csprojResolveAssemblyReference.cache
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\bin\Release\Util.dll
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\bin\Release\Util.pdb
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\obj\Release\Util.csprojResolveAssemblyReference.cache
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\obj\Release\Util.dll
+D:\workspaces\workspaceTaleo\project\Taleo\TaleoOutlookAddin\TaleoOutlookApp\Util\obj\Release\Util.pdb
